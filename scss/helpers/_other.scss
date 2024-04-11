@@ -3,7 +3,7 @@
 }
 
 .is-radius {
-  border-radius: $radius-large !important;
+  border-radius: $radius-large;
 }
 .is-radius-full {
   border-radius: 3rem !important;
@@ -13,8 +13,8 @@
 }
 
 .not-radius-right{
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .x-overflow-hidden{
