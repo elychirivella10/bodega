@@ -17,6 +17,11 @@
   border-bottom-right-radius: 0 !important;
 }
 
+.not-radius-left{
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
 .x-overflow-hidden{
   overflow-x: hidden;
 }
@@ -31,6 +36,22 @@
 
 .is-width-100{
   width: 100%;
+}
+
+.is-width-65{
+  width: 65%;
+}
+
+.is-width-30{
+  width: 30%;
+}
+
+.is-width-26{
+  width: 26%;
+}
+
+.is-width-20{
+  width: 20%;
 }
 
 .is-22-min{
@@ -55,6 +76,11 @@
   }
 }
 @for $var from 0 to 101 {
+  .vh-min#{$var}{
+    min-height: #{$var}vh;
+  }
+}
+@for $var from 0 to 101 {
   .vh-maxx#{$var}{
     max-height:#{$var}vh;
   }
@@ -62,6 +88,12 @@
 @for $var from 0 to 101 {
   .vw#{$var}{
     width: #{$var}vw;
+  }
+  
+}
+@for $var from 0 to 101 {
+  .vw-min#{$var}{
+    min-width: #{$var}vw;
   }
   
 }
@@ -148,4 +180,8 @@
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 0;
   }
+}
+
+.has-blur{
+  backdrop-filter: blur(6px);
 }

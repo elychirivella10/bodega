@@ -6,54 +6,79 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body>
-    <section class="container vh100 is-flex is-align-items-center">
-        <div class="box vw100 has-background-transparent">
-            <div class="columns is-multiline">
-                <div class="column is-12">
-                    <div class="columns is-multiline is-mobile">
-                        <div class="column  is-hidden-touch">
-                            <div class="has-background-dark"></div>
+    <body class="has-background-login ">
+        <div class="has-blur vh-min100">
+            <div class="columns mt-0 is-vcentered">
+                <div class="column is-7 pt-0 pb-0 pr-0 is-hidden-touch">
+                    
+                    <div class="columns is-centered is-multiline">
+                        <div class="column is-12">
+                            <figure class="image container is-width-26">
+                                <img src="./assets/btaLogoAmarillo.png" />
+                            </figure>
                         </div>
-                        <div class="column is-12-mobile">
-                            <div class="box">
-                                <h3 class="title has-text-black">Login</h3>
-                                <hr class="login-hr">
-                                <p class="subtitle has-text-black">Please login to proceed.</p>
-                                
-                                    <form>
-                                        <div class="field">
-                                            <div class="control">
-                                                <input class="input" type="email" placeholder="Your Email" autofocus="">
-                                            </div>
-                                        </div>
-            
-                                        <div class="field">
-                                            <div class="control">
-                                                <input class="input" type="password" placeholder="Your Password">
-                                            </div>
-                                        </div>
-                                        <div class="field">
-                                            <label class="checkbox">
-                                            <input type="checkbox">
-                                            Remember me
-                                            </label>
-                                        </div>
-                                        <button class="button is-block is-info is-fullwidth">Login <i class="fa fa-sign-in" aria-hidden="true"></i></button>
-                                    </form>
-                                
-                                <p class="has-text-grey">
-                                    <a href="../">Sign Up</a> &nbsp;·&nbsp;
-                                    <a href="../">Forgot Password</a> &nbsp;·&nbsp;
-                                    <a href="../">Need Help?</a>
-                                </p>
+                        <div class="column is-8">
+                            <div class="box vh-min35 has-background-blockquote">
+                                <blockquote class="is-size-4 has-text-white">
+                                    HTML tiene una sintaxis muy sencilla y fácil de comprender,
+                                    el contenido está estructurado en elementos,
+                                    los cuales son declarados mediante el uso
+                                    de etiquetas que proporcionan información
+                                    adicional a través de atributos.
+                                  </blockquote>
                             </div>
                         </div>
-                    
+                    </div>
+                </div>
+                <div class="column is-5S pt-0 pb-0 pr-0 pl-0 is-12-mobile">
+                    <div class="box is-radiusless vh-min100 is-flex is-justify-content-center is-align-items-center">
+                        <form class="field pl-7 pr-7">
+                            <figure class="image container is-width-65 mb-5">
+                                <img src="./assets/btaLogo2.png" />
+                            </figure>
+                            <div class='mb-5'>
+                                <p class='is-size-7 has-text-centered'>Ingrese los datos solicitados para continuar con el proceso</p>
+                            </div>
+                        
+                            <div class="control has-icons-right mb-4">
+                                <input class="input" type="text" placeholder="Usuario" name="user" />
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+
+                            <div class="control has-icons-right mb-4">
+                                <input class="input" type="password" placeholder="Contraseña" name="pass" />
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                            </div>
+                            
+                            <div class="field is-grouped">
+                                <p class="control is-expanded">
+                                    <button class="button is-blue is-fullwidth">
+                                        Registrarse
+                                    </button>
+                                </p>
+                                <p class="control is-expanded">
+                                    <button class="button is-primary is-fullwidth">
+                                        Ingresar
+                                    </button>
+                                </p>
+                            </div>
+                        
+                            <div class='mb-4'>
+                                <a href="">
+                                    <p class='is-size-7 has-text-centered has-text-grey'>Recuperar contraseña</p>
+                                </a>
+                            </div>
+                            <div class='mb-4'>
+                                <p class='is-size-8 has-text-centered has-text-grey'>2024 | Sistema de Bodegas</p>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</body>
+        </div> 
+    </body>
 </html>

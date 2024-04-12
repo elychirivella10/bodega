@@ -73,3 +73,12 @@
     background-color: $shade !important;
   }
 }
+
+.has-background-blockquote{
+  background: hsla(0, 0%, 21%, 0.349);
+}
+
+.has-background-login{
+  background-image: url("https://albaciudad.org/wp-content/uploads/2013/01/02.jpg");
+  background-size: cover;
+}
