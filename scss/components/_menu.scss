@@ -1,7 +1,7 @@
 $menu-item-color: $text !default;
 $menu-item-radius: $radius!default;
 $menu-item-hover-color: $text-strong !default;
-$menu-item-hover-background-color: $white-bis !default;
+$menu-item-hover-background-color: $danger-light !default;
 $menu-item-active-color: $link-invert !default;
 $menu-item-active-background-color: $link !default;
 
@@ -97,11 +97,13 @@ $menu-label-spacing: 1em !default;
 
 .menu-label {
   margin: 0 0 16px;
-  color: $menu-label-color;
-  font-size: $menu-label-font-size;
-  font-weight: 500;
-  opacity: 0.4;
+  color: hsl(0deg 0% 39.52%);
+  font-weight: 600;
+  font-size: 0.875rem;
   text-transform: uppercase;
+  background: #e7e7e7;
+  padding: 0.5rem;
+  border-radius: 11px;
 
   &:not(:first-child) {
     margin-top: $menu-label-spacing;

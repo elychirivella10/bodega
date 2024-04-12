@@ -1,0 +1,89 @@
+<body class="has-background-login scrool">
+    <div class="has-blur vh-min100">
+        <div class="columns mt-0 is-vcentered">
+            <div class="column is-7 pt-0 pb-0 pr-0 is-hidden-touch">
+                
+                <div class="columns is-centered is-multiline">
+                    <div class="column is-12">
+                        <figure class="image container is-width-26">
+                            <img src="./assets/btaLogoAmarillo.png" />
+                        </figure>
+                    </div>
+                    <div class="column is-8">
+                        <div class="box vh-min35 has-background-blockquote">
+                            <blockquote class="is-size-4 has-text-white">
+                                HTML tiene una sintaxis muy sencilla y fácil de comprender,
+                                el contenido está estructurado en elementos,
+                                los cuales son declarados mediante el uso
+                                de etiquetas que proporcionan información
+                                adicional a través de atributos.
+                              </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-5">
+                <div class="box">
+                    <h3 class="title has-text-black">Registro</h3>
+                    <hr class="login-hr">
+                    <p class="subtitle has-text-black">Ingrese sus datos</p>
+            
+                    <form action="procesar_registro.php" method="POST">
+                        <div class="columns">
+                            <div class="column">
+                                <div>
+                                    <label for="nombres">Nombres:</label>
+                                    <input class="input" type="text" id="nombres" name="nombres" placeholder="Nombres" required>
+                                </div>
+                                <div>
+                                    <label for="identificacion">Identificación:</label>
+                                    <input class="input" type="text" id="identificacion" name="identificacion" placeholder="Identificacion" required>
+                                </div>
+                                <div>
+                                    <label for="email">Correo Electrónico:</label>
+                                    <input class="input" type="email" id="email" name="email" placeholder="Correo Electronico" required>
+                                </div>
+                                <div>
+                                    <label for="telefono">Teléfono:</label>
+                                    <input class="input" type="tel" id="telefono" name="telefono" required>
+                                </div>   
+                                <div>
+                                    <label for="genero">Género:</label>
+                                    <select class="input" id="genero" name="genero">
+                                        <option value="">---Genero---</option>
+                                        <option value="masculino">Masculino</option>
+                                        <option value="femenino">Femenino</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>                     
+                            </div>
+        
+                            <div class="column">
+                                <div>
+                                    <label for="apellidos">Apellidos:</label>
+                                    <input class="input" type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+                                </div>
+                                <div>
+                                    <label for="rif">RIF:</label>
+                                    <input class="input" type="text" id="rif" name="rif" placeholder="RIF" required>
+                                </div>
+                                <div>
+                                    <label for="email_alternativo">Correo Electrónico Alternativo:</label>
+                                    <input class="input" type="email" id="email_alternativo" name="email_alternativo" placeholder="Correo Electronico Alternativo">
+                                </div>
+                                <div>
+                                    <label for="telefono_alternativo">Teléfono Alternativo:</label>
+                                    <input class="input" type="tel" id="telefono_alternativo" name="telefono_alternativo">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </form> 
+                    <div class="column is-12">
+                        <button class="button is-block is-info is-fullwidth">Registrarme</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>

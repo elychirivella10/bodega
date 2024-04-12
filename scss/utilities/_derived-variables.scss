@@ -104,6 +104,7 @@ $colors: mergeColorMaps(
 (
   "white"  : ($white, $black),
   "black"  : ($black, $white),
+  "red"    : ($red, $red-invert),
   "light"  : ($light, $light-invert),
   "dark"   : ($dark, $dark-invert),
   "primary": ($primary, $primary-invert, $primary-light, $primary-dark),

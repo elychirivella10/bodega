@@ -208,7 +208,6 @@ body {
   color: $navbar-burger-color;
 
   @include hamburger($navbar-height);
-  @include ltr-property("margin", auto, false);
 }
 
 .navbar-menu {

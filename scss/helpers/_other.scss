@@ -54,6 +54,10 @@
   width: 20%;
 }
 
+.is-width-12{
+  width: 12%;
+}
+
 .is-22-min{
   width: 35%;
 }
@@ -126,6 +130,11 @@
   &.right{
    right:0;
   }
+}
+
+.is-horizontal-center{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

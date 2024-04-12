@@ -89,6 +89,9 @@
     &.top-#{$var}{
       top: #{$var}rem;
     }
+    &.top-px-#{$var}{
+      top: #{$var}px;
+    }
 
     &.bottom-#{$var}{
       bottom: #{$var}rem;

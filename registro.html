@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div class="columns is-centered is-multiline">
+        <div class="column is-12">
+            <figure class="image container is-width-12 mb-5">
+                <img src="./assets/btaLogo2.png" />
+            </figure>
+        </div>
+        <div class="column is-6">
+            <div class="box">
+                <div class="columns is-centered is-multiline">
+                    <div class="column is-12" >
+                        <div class="columns is-centered is-multiline">
+                            <div class="column is-6">
+                                <label class="label">Nombres <span class="has-text-danger-dark">*</span></label>
+                                <div class="control has-icons-right pb-4 is-expanded">
+                                    <input class="input" type="text" placeholder="Nombres" name="agent_name"/>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <label class="label">Apellidos <span class="has-text-danger-dark">*</span></label>
+                                <div class="control has-icons-right pb-4 is-expanded">
+                                    <input class="input"  type="text" placeholder="Apellidos" name="agent_lastname" required/>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-12" >
+                        <div class="columns is-centered is-multiline">
+                            <div class="column is-6">
+                                <label class="label">Identificación <span class="has-text-danger-dark">*</span></label>
+                                <div class="field has-addons mb-2" >
+                                    <p class="control">
+                                        <span class="select">
+                                        <select name="tipo_identificacion">
+                                            <option value="V">V</option>
+                                            <option value="E">E</option>
+                                        </select>
+                                        </span>
+                                    </p>
+                                    <p class="control is-expanded has-icons-right">
+                                        <input class="input" type="text" placeholder="Identificación" required name="identificacion"/>
+                                        <span class="icon is-small is-right">
+                                            <i class="fas fa-passport"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column is-6">
+                                <label class="label">Rif <span class="has-text-danger-dark">*</span></label>
+                                <div class="field has-addons mb-2" >
+                                    <p class="control">
+                                        <span class="select">
+                                        <select name="tipo_rif">
+                                            <option value="V">V</option>
+                                            <option value="J">J</option>
+                                        </select>
+                                        </span>
+                                    </p>
+                                    <p class="control is-expanded has-icons-right">
+                                        <input class="input" type="text" placeholder="Rif" required name="rif"/>
+                                        <span class="icon is-small is-right">
+                                            <i class="fas fa-passport"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-12" >
+                        <div class="columns is-centered is-multiline">
+                            <div class="column is-6">
+                                <label class="label">Correo electrónico <span class="has-text-danger-dark">*</span></label>
+                                <div class="control has-icons-right pb-4" >
+                                    <input class="input" type="email"  placeholder="Correo electrónico" required name="correo"/>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="column is-6" >
+                                <label class="label">Correo electrónico alternativo <span class="has-text-danger-dark">*</span></label>
+                                <div class="control has-icons-right pb-4">
+                                    <input class="input" type="email" placeholder="Correo electrónico alternativo" required name="correo_alternativo"/>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-12" >
+                        <div class="columns is-centered is-multiline">
+                            <div class="column is-6">
+                                <div class="field pb-4 mb-2" >
+                                    <label class="label">Género <span class="has-text-danger-dark">*</span></label>
+                                    <p class="control is-fullwidth" >
+                                        <span class="select is-fullwidth">
+                                        <select name="genero">
+                                            <option value="0">---Seleccione un género---</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                        </select>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="column is-6">
+                                <label class="label">Teléfono<span class="has-text-danger-dark">*</span></label>
+                                <div class="control has-icons-right pb-4 is-expanded">
+                                    <input class="input" type="text" placeholder="Telefono" name="telefono"/>
+                                    <span class="icon is-small is-right">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                      
+                    <div class="column is-12">
+                        <button class= "button is-fullwidth is-primary">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -82,3 +82,9 @@
   background-image: url("https://albaciudad.org/wp-content/uploads/2013/01/02.jpg");
   background-size: cover;
 }
+.has-background-panel{
+    background: url('./../assets/reactangulos.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right 1rem top 3rem;
+}
